@@ -37,7 +37,7 @@ class ChooseCategoryPage extends StatelessWidget {
             ),
             Icon(Icons.scale, size: 250.0,),
             Padding(
-              padding: const EdgeInsets.fromLTRB(50.0, 50.0, 50.0, 0.0),
+              padding: const EdgeInsets.fromLTRB(50.0, 150.0, 50.0, 0.0),
               child: Text('Choose which Kind of Value you want to convert', style: headingMediumStyle, textAlign: TextAlign.center,),
             ),
             CategoryGrid.formColumn(categories, theme, ctx)
